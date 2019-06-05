@@ -4,7 +4,7 @@
   "description": "Reason/Bucklescript bindings for ProseMirror",
   "scripts": {
     "build": "bsb -make-world",
-    "predev": "npm run build",
+    "predev": "$npm_execpath run build",
     "dev": "parcel example/index.html",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
