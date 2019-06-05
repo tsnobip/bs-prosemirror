@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width" />
     <title>bs-prosemirror example</title>
     <link rel="stylesheet" href="../node_modules/prosemirror-view/style/prosemirror.css" />
+    <style>
+      #text-editor { background-color: rgba(0, 0, 0, 0.05); padding: 0 }
+      .ProseMirror { min-height: none !important }
+      .ProseMirror a { text-decoration: underline; }
+      note, notegroup { display: block; border: 1px solid silver; border-radius: 3px; padding: 3px 6px; margin: 5px 0; }
+      notegroup { border-color: #66f }
+      p.boring { background: #eee; color: #444; }
+      shouting { display: inline; text-transform: uppercase; font-weight: bold; }
+      star { display: inline; font-size: 190%; line-height: 1; vertical-align: -10%; color: #a8f; -webkit-text-stroke: 1px #75b; }
     </style>
   </head>
   <body>
